@@ -1,0 +1,42 @@
+input{
+    color: darkgrey;
+}
+
+body{
+    margin: 5%;
+}
+
+input.button{
+    border-radius: 15px;
+    color: gray ;
+    border: 2px solid lightseagreen ;
+}
+
+input{
+    color: dimgrey;
+    border-top: 0 ;
+    border-left: 0;
+    border-right: 0;
+  }
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Verdana, sans-serif;
+    color: darkslategrey;
+}
+
+.form-section{
+    color: black;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.definitionsList{
+
+}
+
+
+
+a:any-link { color: black; }
+
+
+

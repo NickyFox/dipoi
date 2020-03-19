@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="theme.css">
+
+    <title>Title</title>
+</head>
+<body>
+    <div id="tableInformation">
+        <table style="width: 100%; ">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Mail</th>
+                <th>Phone</th>
+                <th colspan="3">Actions</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <th>View</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>Colugna</td>
+                <td>xx@yy.com</td>
+                <td>1153207654</td>
+                <td><img src="view.png"></td>
+                <td><img src="edit.png"></td>
+                <td><img src="delete.jpg"></td>
+            </tr>
+            <tr>
+                <td>Agustin</td>
+                <td>Lopez Gabeiras</td>
+                <td>yy@xx.com</td>
+                <td>1153207654</td>
+                <td><img src="view.png"></td>
+                <td><img src="edit.png"></td>
+                <td><img src="delete.jpg"></td>
+            </tr>
+
+        </table>
+    </div>
+
+
+    <div id="formFromUser">
+        <form>
+            <br><br><br>
+            <label class="form-section"> Usuario:</label><br>
+            <label for="fname">Nombre:</label><br>
+            <input type="text" id="fname"><br>
+            <label for="lname">Apellido:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="mail">Mail:</label><br>
+            <input type="text" id="mail" name="mail"><br>
+            <label for="phone">Telefono:</label><br>
+            <input type="text" id="phone" name="phone"><br>
+            <br><br>
+            <label class="form-section"> Direccion:</label><br>
+            <label for="street">Calle:</label><br>
+            <input type="text" id="street"><br>
+            <label for="prov">Provincia:</label><br>
+            <input type="text" id="prov" name="prov"><br>
+            <label for="codigoPostal">Codigo posta:</label><br>
+            <input type="text" id="codigoPostal" name="codigoPostal"><br>
+            <br><br>
+            <label class="form-section"> Otro:</label><br>
+            <label for="birthDate">Fecha de nacimiento:</label><br>
+            <input type="text" maxlength="10" id="birthDate"><br>
+            <label >Estado civil</label><br>
+            <input type="radio" id="single" name="civilStatus">
+            <label for="single">Soltero</label><br>
+            <input type="radio" id="married" name="civilStatus">
+            <label for="married">Casado</label><br>
+            <input type="radio" id="other" name="civilStatus">
+            <label for="other">otro</label><br>
+            <label for="myfile">Elegir un archivo:</label>
+            <input type="file" id="myfile" name="myfile"><br>
+            <label >Comentario</label><br>
+            <textarea></textarea><br><br>
+            <input type="submit" class="button" value="Enviar">
+            <input type="reset" class="button" value="Cancelar">
+        </form>
+    </div>
+</body>
+</html>
