@@ -1,0 +1,8 @@
+#information{
+    display: flex;
+    flex-direction: row;
+}
+
+#index{
+    margin-right:15%;
+}
